@@ -6,9 +6,8 @@
 			default: // Default case: This code is insecure
 			case "0": // This code is insecure.
 			case "1": // This code is insecure.
-				$lEnableJavaScriptValidation = false;
-				$lEnableHTMLControls = false;
-				$lEncodeOutput = false;
+				$lEnableJavaScriptValidation = true;
+				$lEnableHTMLControls = true;
 			break;
 		
 			case "2":
@@ -189,4 +188,5 @@
 		document.getElementById("id-log-in-form-div").style.display="none";
 		document.getElementById("id-log-out-div").style.display="";
 	}// end if l_loggedIn
+
 </script>
